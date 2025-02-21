@@ -1,0 +1,44 @@
+Starting test at 100 meters
+Timestamp: 2025-02-20_17-27-11
+Checking signal strength (RSSI)...
+Measurement 1:
+-60 dBm
+Measurement 2:
+-71 dBm
+Measurement 3:
+-59 dBm
+Measurement 4:
+-63 dBm
+Measurement 5:
+-58 dBm
+Measurement 6:
+-59 dBm
+Measurement 7:
+-67 dBm
+Measurement 8:
+-55 dBm
+Running throughput tests...
+Download test 1...
+Download test 2...
+Download test 3...
+Upload test 1...
+Upload test 2...
+Upload test 3...
+Large packet test 3...
+Running additional network tests...
+PING 192.168.0.104 (192.168.0.104) 56(84) bytes of data.
+64 bytes from 192.168.0.104: icmp_seq=1 ttl=64 time=5.80 ms
+64 bytes from 192.168.0.104: icmp_seq=2 ttl=64 time=39.3 ms
+64 bytes from 192.168.0.104: icmp_seq=3 ttl=64 time=62.1 ms
+64 bytes from 192.168.0.104: icmp_seq=4 ttl=64 time=173 ms
+64 bytes from 192.168.0.104: icmp_seq=5 ttl=64 time=5.75 ms
+64 bytes from 192.168.0.104: icmp_seq=6 ttl=64 time=117 ms
+64 bytes from 192.168.0.104: icmp_seq=7 ttl=64 time=150 ms
+64 bytes from 192.168.0.104: icmp_seq=8 ttl=64 time=160 ms
+64 bytes from 192.168.0.104: icmp_seq=9 ttl=64 time=94.6 ms
+64 bytes from 192.168.0.104: icmp_seq=10 ttl=64 time=137 ms
+
+--- 192.168.0.104 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 5.747/94.446/172.910/59.733 ms
+Test completed for 100 meters. Logs saved in logs.

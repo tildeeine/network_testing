@@ -1,0 +1,56 @@
+    Execute the command " iperf.exe – c  <IP address of the server>   -P 10  -w 1000k "
+
+               (  -P refers to the number of parallel TCP streams and –w referes to the TCP window size  )
+
+
+
+scp /path/to/local/file remote_user@remote_host:/path/to/remote/file
+
+
+
+# 
+
+To test: 
+
+- Approximate range and throughput for each wifi component to TP router
+    - SKW77 - Router
+    - LM843 - Router
+- Approximate range and throughput for each wifi component to another of the same component
+    - SKW77 - SKW77
+    - LM843 - LM843
+
+What metrics are we using?
+
+- RSSI -
+- iperf 3
+
+![rpi pinout.jpg](attachment:1c886b24-eddf-4272-8ce4-3bd175cf7244:rpi_pinout.jpg)
+
+ 
+
+![bilde.png](attachment:f9491982-b104-4deb-ba62-dd96ff6c1295:bilde.png)
+
+Iperf commands:
+
+Bidirectional throughput
+
+iPerf3 -s
+
+Specified port
+`iPerf3 -s -p 7575`
+
+Specify server
+`iPerf3 -c 10.10.10.1 -p 7575`
+
+Runs 20 seconds by default, then outputs results, average throughput for the run
+
+`watch -n1 iwconfig`
+
+wavemon
+
+Signal level
+
+70 dBm to -85 dBm	Good	Strong signal with good data speeds
+-86 dBm to -100 dBm	Fair	Fair but useful, fast and reliable data speeds may be attained, but marginal data with drop-outs is possible
+< -100 dBm	Poor	Performance will drop drastically
+-110 dBm	No signal	Disconnection
