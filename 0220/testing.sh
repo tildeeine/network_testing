@@ -3,6 +3,7 @@
 # Variables
 SERVER_IP="192.168.0.104"  #! Change during test setup
 DISTANCE="$1"  # Enter as argument when starting script
+INTERFACE="wlan0"  #! change if necessary, should be correct for voxl
 LOG_DIR="logs"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 LOG_FILE="$LOG_DIR/${DISTANCE}m_test_$TIMESTAMP.log"
@@ -27,27 +28,38 @@ done
 
 log_and_echo "Running throughput tests..."
 
-# Download test (3 times)
-for i in {1..3}; do
-    log_and_echo "Download test $i..."
-    iperf3 -c $SERVER_IP -t 30 -i 1 -P 5 --logfile "$LOG_DIR/${DISTANCE}m_download_$i.log"
-    sleep 1
-done
+# Download test
+log_and_echo "Download test ..."
+iperf3 -c $SERVER_IP -t 30 -i 1 -P 5 | tee "$LOG_DIR/${DISTANCE}m_download.log"
+grep SUM "$LOG_DIR/${DISTANCE}m_download.log" | tee -a "$LOG_FILE"
+sleep 1
 
-# Upload test (3 times)
-for i in {1..3}; do
-    log_and_echo "Upload test $i..."
-    iperf3 -c $SERVER_IP -t 30 -i 1 -R -P 5 --logfile "$LOG_DIR/${DISTANCE}m_upload_$i.log"
-    sleep 1
-done
+# Upload test
+log_and_echo "Upload test..."
+iperf3 -c $SERVER_IP -t 30 -i 1 -R -P 5 | tee "$LOG_DIR/${DISTANCE}m_upload.log"
+grep SUM "$LOG_DIR/${DISTANCE}m_upload.log" | tee -a "$LOG_FILE"
+sleep 1
 
 # Large packets test
-log_and_echo "Large packet test $i..."
-iperf3 -c $SERVER_IP -t 30 -i 1 -l 1400 --logfile "$LOG_DIR/${DISTANCE}m_large_packet_$i.log"
+log_and_echo "Large packet test..."
+iperf3 -c $SERVER_IP -t 30 -i 1 -l 1400 | tee "$LOG_DIR/${DISTANCE}m_large_packet.log"
+grep SUM "$LOG_DIR/${DISTANCE}m_large_packet.log" | tee -a "$LOG_FILE"
 
 # Extra tests
-log_and_echo "Running additional network tests..."
+log_and_echo "Ping and iwlist tests..."
 ping -c 10 $SERVER_IP | tee -a "$LOG_FILE"
-iwlist wlan1 scan | tee -a "$LOG_FILE"
+
+sudo iwlist $INTERFACE quality | tee -a "$LOG_FILE" #!check this
+
+# Print summary
+log_and_echo "Summary of Results:"
+log_and_echo "Download Speed:"
+grep SUM "$LOG_DIR/${DISTANCE}m_download.log" | tee -a "$LOG_FILE"
+
+log_and_echo "Upload Speed:"
+grep SUM "$LOG_DIR/${DISTANCE}m_upload.log" | tee -a "$LOG_FILE"
+
+log_and_echo "Large Packet Speed:"
+grep SUM "$LOG_DIR/${DISTANCE}m_large_packet.log" | tee -a "$LOG_FILE"
 
 log_and_echo "Test completed for $DISTANCE meters. Logs saved in $LOG_DIR."
