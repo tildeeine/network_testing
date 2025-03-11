@@ -27,8 +27,8 @@ for i in {1..8}; do
     # Extract just the first number from SIGNAL (before the slash)
     QUALITY_NUM=$(echo $SIGNAL | cut -d'/' -f1)
     
-    # Calculate dBm - remove the problematic line and keep only the working one
-    QUALITY=$(( (QUALITY_NUM * 2) - 100 ))
+    # Calculate dBm using integer division (quality/2) - 100
+    QUALITY=$(( (QUALITY_NUM / 2) - 100 ))
     
     echo "dBm: $QUALITY" | tee -a "$LOG_FILE"
     sleep 1
