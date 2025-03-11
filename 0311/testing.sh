@@ -21,8 +21,11 @@ log_and_echo "Timestamp: $TIMESTAMP"
 log_and_echo "Checking signal strength (RSSI)..."
 for i in {1..8}; do
     log_and_echo "Measurement $i:"
-    SIGNAL=$(iwconfig $INTERFACE 2>/dev/null | grep -o 'Signal level=-*' | awk -F '=' '{print $2}')
+    #dBm = (quality / 2) - 100 
+    SIGNAL=$(iwconfig $INTERFACE 2>/dev/null | grep -o 'Signal level=[0-9]*/[0-9]*' | awk -F '=' '{print $2}')
+    QUALITY = $(($SIGNAL/2)-100)
     echo $SIGNAL | tee -a "$LOG_FILE"
+    echo $QUALITY | tee -a "$LOG_FILE"
     sleep 1
 done
 
