@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-SERVER_IP="192.168.0.104"  #! Change during test setup
+SERVER_IP="192.168.65.180"  #! Change during test setup
 DISTANCE="$1"  # Enter as argument when starting script
 INTERFACE="wlan0"  #! change if necessary, should be correct for voxl
 LOG_DIR="logs"
