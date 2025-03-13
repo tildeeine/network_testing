@@ -1,0 +1,37 @@
+Starting test at  meters
+Timestamp: 2025-03-11_12-50-37
+Checking signal strength (RSSI)...
+Measurement 1:
+-39 dBm
+Measurement 2:
+-39 dBm
+Measurement 3:
+-39 dBm
+Measurement 4:
+-42 dBm
+Measurement 5:
+-38 dBm
+Measurement 6:
+-40 dBm
+Measurement 7:
+-40 dBm
+Measurement 8:
+-42 dBm
+Running throughput tests...
+Download test ...
+[SUM]   0.00-1.00   sec  16.0 MBytes   134 Mbits/sec    0             
+[SUM]   1.00-2.00   sec  9.32 MBytes  78.2 Mbits/sec    0             
+[SUM]   2.00-3.00   sec  11.7 MBytes  98.0 Mbits/sec    0             
+[SUM]   3.00-4.00   sec  5.22 MBytes  43.8 Mbits/sec    5             
+[SUM]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    0             
+[SUM]   5.00-6.00   sec  8.08 MBytes  67.8 Mbits/sec    0             
+[SUM]   6.00-7.00   sec  8.70 MBytes  73.0 Mbits/sec    0             
+[SUM]   7.00-8.00   sec  10.1 MBytes  85.0 Mbits/sec    0             
+[SUM]   8.00-9.00   sec  10.3 MBytes  86.5 Mbits/sec    0             
+[SUM]   9.00-10.00  sec  8.76 MBytes  73.5 Mbits/sec    0             
+[SUM]  10.00-11.00  sec  8.33 MBytes  69.9 Mbits/sec    0             
+[SUM]  11.00-12.00  sec  11.2 MBytes  94.4 Mbits/sec    0             
+[SUM]  12.00-13.00  sec  11.4 MBytes  95.9 Mbits/sec    0             
+[SUM]  13.00-14.00  sec  8.82 MBytes  74.0 Mbits/sec    0             
+[SUM]  14.00-15.00  sec  9.94 MBytes  83.4 Mbits/sec    0             
+Upload test...

@@ -1,0 +1,19 @@
+Starting test at 25 meters
+Timestamp: 2025-03-11_15-13-32
+Checking signal strength (RSSI)...
+Measurement 1:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=56/70 Signal level=-54 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0
+Measurement 2:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=58/70 Signal level=-52 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0
+Measurement 3:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=56/70 Signal level=-54 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0
+Measurement 4:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=56/70 Signal level=-54 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0
+Measurement 5:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=56/70 Signal level=-54 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0
+Measurement 6:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=56/70 Signal level=-54 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0
+Measurement 7:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=56/70 Signal level=-54 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0
+Measurement 8:
+wlx34c9f099244f IEEE 802.11 ESSID:"DroneNet" Mode:Managed Frequency:2.442 GHz Access Point: B0:19:21:28:F6:E7 Bit Rate=72.2 Mb/s Tx-Power=20 dBm Retry short limit:7 RTS thr:off Fragment thr:off Power Management:on Link Quality=54/70 Signal level=-56 dBm Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 Invalid misc:7 Missed beacon:0

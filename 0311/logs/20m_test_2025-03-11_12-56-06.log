@@ -1,0 +1,29 @@
+Starting test at 20 meters
+Timestamp: 2025-03-11_12-56-06
+Checking signal strength (RSSI)...
+Measurement 1:
+
+Measurement 2:
+
+Measurement 3:
+
+Measurement 4:
+
+Measurement 5:
+
+Measurement 6:
+
+Measurement 7:
+-54 dBm
+Measurement 8:
+-58 dBm
+Running throughput tests...
+Download test ...
+Upload test...
+Large packet test...
+Ping and iwlist tests...
+Summary of Results:
+Download Speed:
+Upload Speed:
+Large Packet Speed:
+Test completed for 20 meters. Logs saved in logs.

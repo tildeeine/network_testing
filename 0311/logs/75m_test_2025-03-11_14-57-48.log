@@ -1,0 +1,172 @@
+Starting test at 75 meters
+Timestamp: 2025-03-11_14-57-48
+Checking signal strength (RSSI)...
+Measurement 1:
+
+Measurement 2:
+
+Measurement 3:
+
+Measurement 4:
+
+Measurement 5:
+
+Measurement 6:
+
+Measurement 7:
+
+Measurement 8:
+
+Running throughput tests...
+Download test ...
+[SUM]   0.00-1.00   sec  9.91 MBytes  83.1 Mbits/sec    2             
+[SUM]   1.00-2.00   sec  4.47 MBytes  37.5 Mbits/sec    0             
+[SUM]   2.00-3.00   sec  4.04 MBytes  33.9 Mbits/sec    0             
+[SUM]   3.00-4.00   sec  4.04 MBytes  33.9 Mbits/sec    0             
+[SUM]   4.00-5.00   sec  5.90 MBytes  49.5 Mbits/sec    0             
+[SUM]   5.00-6.00   sec  3.79 MBytes  31.8 Mbits/sec    0             
+[SUM]   6.00-7.00   sec  5.97 MBytes  50.0 Mbits/sec    0             
+[SUM]   7.00-8.00   sec  2.05 MBytes  17.2 Mbits/sec    0             
+[SUM]   8.00-9.00   sec  7.58 MBytes  63.6 Mbits/sec    0             
+[SUM]   9.00-10.00  sec  2.73 MBytes  22.9 Mbits/sec    0             
+[SUM]  10.00-11.00  sec  9.86 MBytes  82.7 Mbits/sec    0             
+[SUM]  11.00-12.00  sec  5.99 MBytes  50.2 Mbits/sec    0             
+[SUM]  12.00-13.00  sec  7.11 MBytes  59.6 Mbits/sec    0             
+[SUM]  13.00-14.00  sec  5.99 MBytes  50.2 Mbits/sec    0             
+[SUM]  14.00-15.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  15.00-16.00  sec  7.24 MBytes  60.7 Mbits/sec    0             
+[SUM]  16.00-17.00  sec  7.24 MBytes  60.7 Mbits/sec    0             
+[SUM]  17.00-18.00  sec  7.24 MBytes  60.7 Mbits/sec    4             
+[SUM]  18.00-19.00  sec  6.04 MBytes  50.7 Mbits/sec    0             
+[SUM]  19.00-20.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  20.00-21.00  sec  3.75 MBytes  31.4 Mbits/sec    0             
+[SUM]  21.00-22.00  sec  6.11 MBytes  51.3 Mbits/sec    0             
+[SUM]  22.00-23.00  sec  6.05 MBytes  50.7 Mbits/sec    0             
+[SUM]  23.00-24.00  sec  6.05 MBytes  50.7 Mbits/sec    0             
+[SUM]  24.00-25.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  25.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0             
+[SUM]  26.00-27.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  27.00-28.00  sec  3.62 MBytes  30.4 Mbits/sec    0             
+[SUM]  28.00-29.00  sec  6.25 MBytes  52.4 Mbits/sec    5             
+[SUM]  29.00-30.00  sec  2.35 MBytes  19.7 Mbits/sec    0             
+[SUM]   0.00-30.00  sec   166 MBytes  46.3 Mbits/sec   11             sender
+[SUM]   0.00-30.16  sec   151 MBytes  41.9 Mbits/sec                  receiver
+Upload test...
+[SUM]   0.00-1.00   sec  3.10 MBytes  26.0 Mbits/sec                  
+[SUM]   1.00-2.00   sec  4.36 MBytes  36.6 Mbits/sec                  
+[SUM]   2.00-3.00   sec  5.02 MBytes  42.1 Mbits/sec                  
+[SUM]   3.00-4.00   sec  6.38 MBytes  53.6 Mbits/sec                  
+[SUM]   4.00-5.00   sec  3.48 MBytes  29.2 Mbits/sec                  
+[SUM]   5.00-6.00   sec  2.38 MBytes  20.0 Mbits/sec                  
+[SUM]   6.00-7.00   sec  1.59 MBytes  13.3 Mbits/sec                  
+[SUM]   7.00-8.00   sec  1.64 MBytes  13.8 Mbits/sec                  
+[SUM]   8.00-9.00   sec  4.08 MBytes  34.3 Mbits/sec                  
+[SUM]   9.00-10.00  sec  5.54 MBytes  46.4 Mbits/sec                  
+[SUM]  10.00-11.00  sec  11.9 MBytes  99.8 Mbits/sec                  
+[SUM]  11.00-12.00  sec  10.1 MBytes  84.4 Mbits/sec                  
+[SUM]  12.00-13.00  sec  7.41 MBytes  62.2 Mbits/sec                  
+[SUM]  13.00-14.00  sec  6.68 MBytes  56.0 Mbits/sec                  
+[SUM]  14.00-15.00  sec  6.45 MBytes  54.1 Mbits/sec                  
+[SUM]  15.00-16.00  sec  5.80 MBytes  48.7 Mbits/sec                  
+[SUM]  16.00-17.00  sec  6.58 MBytes  55.2 Mbits/sec                  
+[SUM]  17.00-18.00  sec  6.06 MBytes  50.8 Mbits/sec                  
+[SUM]  18.00-19.00  sec  6.50 MBytes  54.5 Mbits/sec                  
+[SUM]  19.00-20.00  sec  5.60 MBytes  47.0 Mbits/sec                  
+[SUM]  20.00-21.00  sec  6.40 MBytes  53.7 Mbits/sec                  
+[SUM]  21.00-22.00  sec  11.5 MBytes  96.6 Mbits/sec                  
+[SUM]  22.00-23.00  sec  10.6 MBytes  88.6 Mbits/sec                  
+[SUM]  23.00-24.00  sec  5.34 MBytes  44.8 Mbits/sec                  
+[SUM]  24.00-25.00  sec  4.65 MBytes  39.0 Mbits/sec                  
+[SUM]  25.00-26.00  sec  3.95 MBytes  33.1 Mbits/sec                  
+[SUM]  26.00-27.00  sec  4.44 MBytes  37.3 Mbits/sec                  
+[SUM]  27.00-28.00  sec  3.27 MBytes  27.5 Mbits/sec                  
+[SUM]  28.00-29.00  sec  6.09 MBytes  51.1 Mbits/sec                  
+[SUM]  29.00-30.00  sec  4.42 MBytes  37.1 Mbits/sec                  
+[SUM]   0.00-30.16  sec   172 MBytes  47.8 Mbits/sec                  sender
+[SUM]   0.00-30.00  sec   171 MBytes  47.9 Mbits/sec                  receiver
+Large packet test...
+Ping and iwlist tests...
+PING 192.168.0.51 (192.168.0.51) 56(84) bytes of data.
+64 bytes from 192.168.0.51: icmp_seq=1 ttl=64 time=3.93 ms
+64 bytes from 192.168.0.51: icmp_seq=2 ttl=64 time=199 ms
+64 bytes from 192.168.0.51: icmp_seq=3 ttl=64 time=15.9 ms
+64 bytes from 192.168.0.51: icmp_seq=4 ttl=64 time=244 ms
+64 bytes from 192.168.0.51: icmp_seq=5 ttl=64 time=61.7 ms
+64 bytes from 192.168.0.51: icmp_seq=6 ttl=64 time=284 ms
+64 bytes from 192.168.0.51: icmp_seq=7 ttl=64 time=166 ms
+64 bytes from 192.168.0.51: icmp_seq=8 ttl=64 time=25.0 ms
+64 bytes from 192.168.0.51: icmp_seq=9 ttl=64 time=145 ms
+64 bytes from 192.168.0.51: icmp_seq=10 ttl=64 time=168 ms
+
+--- 192.168.0.51 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 3.926/131.182/284.158/94.329 ms
+Summary of Results:
+Download Speed:
+[SUM]   0.00-1.00   sec  9.91 MBytes  83.1 Mbits/sec    2             
+[SUM]   1.00-2.00   sec  4.47 MBytes  37.5 Mbits/sec    0             
+[SUM]   2.00-3.00   sec  4.04 MBytes  33.9 Mbits/sec    0             
+[SUM]   3.00-4.00   sec  4.04 MBytes  33.9 Mbits/sec    0             
+[SUM]   4.00-5.00   sec  5.90 MBytes  49.5 Mbits/sec    0             
+[SUM]   5.00-6.00   sec  3.79 MBytes  31.8 Mbits/sec    0             
+[SUM]   6.00-7.00   sec  5.97 MBytes  50.0 Mbits/sec    0             
+[SUM]   7.00-8.00   sec  2.05 MBytes  17.2 Mbits/sec    0             
+[SUM]   8.00-9.00   sec  7.58 MBytes  63.6 Mbits/sec    0             
+[SUM]   9.00-10.00  sec  2.73 MBytes  22.9 Mbits/sec    0             
+[SUM]  10.00-11.00  sec  9.86 MBytes  82.7 Mbits/sec    0             
+[SUM]  11.00-12.00  sec  5.99 MBytes  50.2 Mbits/sec    0             
+[SUM]  12.00-13.00  sec  7.11 MBytes  59.6 Mbits/sec    0             
+[SUM]  13.00-14.00  sec  5.99 MBytes  50.2 Mbits/sec    0             
+[SUM]  14.00-15.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  15.00-16.00  sec  7.24 MBytes  60.7 Mbits/sec    0             
+[SUM]  16.00-17.00  sec  7.24 MBytes  60.7 Mbits/sec    0             
+[SUM]  17.00-18.00  sec  7.24 MBytes  60.7 Mbits/sec    4             
+[SUM]  18.00-19.00  sec  6.04 MBytes  50.7 Mbits/sec    0             
+[SUM]  19.00-20.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  20.00-21.00  sec  3.75 MBytes  31.4 Mbits/sec    0             
+[SUM]  21.00-22.00  sec  6.11 MBytes  51.3 Mbits/sec    0             
+[SUM]  22.00-23.00  sec  6.05 MBytes  50.7 Mbits/sec    0             
+[SUM]  23.00-24.00  sec  6.05 MBytes  50.7 Mbits/sec    0             
+[SUM]  24.00-25.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  25.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0             
+[SUM]  26.00-27.00  sec  6.05 MBytes  50.8 Mbits/sec    0             
+[SUM]  27.00-28.00  sec  3.62 MBytes  30.4 Mbits/sec    0             
+[SUM]  28.00-29.00  sec  6.25 MBytes  52.4 Mbits/sec    5             
+[SUM]  29.00-30.00  sec  2.35 MBytes  19.7 Mbits/sec    0             
+[SUM]   0.00-30.00  sec   166 MBytes  46.3 Mbits/sec   11             sender
+[SUM]   0.00-30.16  sec   151 MBytes  41.9 Mbits/sec                  receiver
+Upload Speed:
+[SUM]   0.00-1.00   sec  3.10 MBytes  26.0 Mbits/sec                  
+[SUM]   1.00-2.00   sec  4.36 MBytes  36.6 Mbits/sec                  
+[SUM]   2.00-3.00   sec  5.02 MBytes  42.1 Mbits/sec                  
+[SUM]   3.00-4.00   sec  6.38 MBytes  53.6 Mbits/sec                  
+[SUM]   4.00-5.00   sec  3.48 MBytes  29.2 Mbits/sec                  
+[SUM]   5.00-6.00   sec  2.38 MBytes  20.0 Mbits/sec                  
+[SUM]   6.00-7.00   sec  1.59 MBytes  13.3 Mbits/sec                  
+[SUM]   7.00-8.00   sec  1.64 MBytes  13.8 Mbits/sec                  
+[SUM]   8.00-9.00   sec  4.08 MBytes  34.3 Mbits/sec                  
+[SUM]   9.00-10.00  sec  5.54 MBytes  46.4 Mbits/sec                  
+[SUM]  10.00-11.00  sec  11.9 MBytes  99.8 Mbits/sec                  
+[SUM]  11.00-12.00  sec  10.1 MBytes  84.4 Mbits/sec                  
+[SUM]  12.00-13.00  sec  7.41 MBytes  62.2 Mbits/sec                  
+[SUM]  13.00-14.00  sec  6.68 MBytes  56.0 Mbits/sec                  
+[SUM]  14.00-15.00  sec  6.45 MBytes  54.1 Mbits/sec                  
+[SUM]  15.00-16.00  sec  5.80 MBytes  48.7 Mbits/sec                  
+[SUM]  16.00-17.00  sec  6.58 MBytes  55.2 Mbits/sec                  
+[SUM]  17.00-18.00  sec  6.06 MBytes  50.8 Mbits/sec                  
+[SUM]  18.00-19.00  sec  6.50 MBytes  54.5 Mbits/sec                  
+[SUM]  19.00-20.00  sec  5.60 MBytes  47.0 Mbits/sec                  
+[SUM]  20.00-21.00  sec  6.40 MBytes  53.7 Mbits/sec                  
+[SUM]  21.00-22.00  sec  11.5 MBytes  96.6 Mbits/sec                  
+[SUM]  22.00-23.00  sec  10.6 MBytes  88.6 Mbits/sec                  
+[SUM]  23.00-24.00  sec  5.34 MBytes  44.8 Mbits/sec                  
+[SUM]  24.00-25.00  sec  4.65 MBytes  39.0 Mbits/sec                  
+[SUM]  25.00-26.00  sec  3.95 MBytes  33.1 Mbits/sec                  
+[SUM]  26.00-27.00  sec  4.44 MBytes  37.3 Mbits/sec                  
+[SUM]  27.00-28.00  sec  3.27 MBytes  27.5 Mbits/sec                  
+[SUM]  28.00-29.00  sec  6.09 MBytes  51.1 Mbits/sec                  
+[SUM]  29.00-30.00  sec  4.42 MBytes  37.1 Mbits/sec                  
+[SUM]   0.00-30.16  sec   172 MBytes  47.8 Mbits/sec                  sender
+[SUM]   0.00-30.00  sec   171 MBytes  47.9 Mbits/sec                  receiver
+Large Packet Speed:
+Test completed for 75 meters. Logs saved in logs.

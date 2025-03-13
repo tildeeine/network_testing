@@ -1,0 +1,44 @@
+Starting test at 50 meters
+Timestamp: 2025-03-11_14-54-05
+Checking signal strength (RSSI)...
+Measurement 1:
+
+Measurement 2:
+
+Measurement 3:
+
+Measurement 4:
+
+Measurement 5:
+
+Measurement 6:
+
+Measurement 7:
+
+Measurement 8:
+
+Running throughput tests...
+Download test ...
+Upload test...
+Large packet test...
+Ping and iwlist tests...
+PING 192.168.0.51 (192.168.0.51) 56(84) bytes of data.
+64 bytes from 192.168.0.51: icmp_seq=1 ttl=64 time=3.75 ms
+64 bytes from 192.168.0.51: icmp_seq=2 ttl=64 time=239 ms
+64 bytes from 192.168.0.51: icmp_seq=3 ttl=64 time=56.5 ms
+64 bytes from 192.168.0.51: icmp_seq=4 ttl=64 time=295 ms
+64 bytes from 192.168.0.51: icmp_seq=5 ttl=64 time=15.8 ms
+64 bytes from 192.168.0.51: icmp_seq=6 ttl=64 time=240 ms
+64 bytes from 192.168.0.51: icmp_seq=7 ttl=64 time=147 ms
+64 bytes from 192.168.0.51: icmp_seq=8 ttl=64 time=165 ms
+64 bytes from 192.168.0.51: icmp_seq=9 ttl=64 time=4.61 ms
+64 bytes from 192.168.0.51: icmp_seq=10 ttl=64 time=4.75 ms
+
+--- 192.168.0.51 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 3.752/117.082/294.962/108.080 ms
+Summary of Results:
+Download Speed:
+Upload Speed:
+Large Packet Speed:
+Test completed for 50 meters. Logs saved in logs.

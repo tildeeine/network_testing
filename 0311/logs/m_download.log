@@ -1,0 +1,57 @@
+Connecting to host 192.168.0.51, port 5201
+[  5] local 192.168.0.131 port 54202 connected to 192.168.0.51 port 5201
+[  7] local 192.168.0.131 port 54212 connected to 192.168.0.51 port 5201
+[  9] local 192.168.0.131 port 54226 connected to 192.168.0.51 port 5201
+[ 11] local 192.168.0.131 port 54238 connected to 192.168.0.51 port 5201
+[ 13] local 192.168.0.131 port 54240 connected to 192.168.0.51 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  2.38 MBytes  19.9 Mbits/sec    1    225 KBytes       
+[  7]   0.00-1.00   sec  2.27 MBytes  19.1 Mbits/sec    1    229 KBytes       
+[  9]   0.00-1.00   sec  2.09 MBytes  17.5 Mbits/sec    1    214 KBytes       
+[ 11]   0.00-1.00   sec  2.46 MBytes  20.6 Mbits/sec    0    245 KBytes       
+[ 13]   0.00-1.00   sec  5.08 MBytes  42.6 Mbits/sec    1    836 KBytes       
+[SUM]   0.00-1.00   sec  14.3 MBytes   120 Mbits/sec    4             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   1.00-2.00   sec  1018 KBytes  8.34 Mbits/sec    0    236 KBytes       
+[  7]   1.00-2.00   sec  1018 KBytes  8.34 Mbits/sec    0    242 KBytes       
+[  9]   1.00-2.00   sec   954 KBytes  7.82 Mbits/sec    0    225 KBytes       
+[ 11]   1.00-2.00   sec  1.06 MBytes  8.86 Mbits/sec    0    257 KBytes       
+[ 13]   1.00-2.00   sec  2.50 MBytes  21.0 Mbits/sec    0    877 KBytes       
+[SUM]   1.00-2.00   sec  6.48 MBytes  54.3 Mbits/sec    0             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   2.00-3.00   sec  1.06 MBytes  8.86 Mbits/sec    0    264 KBytes       
+[  7]   2.00-3.00   sec  1.12 MBytes  9.38 Mbits/sec    0    267 KBytes       
+[  9]   2.00-3.00   sec   509 KBytes  4.17 Mbits/sec    0    246 KBytes       
+[ 11]   2.00-3.00   sec  1.18 MBytes  9.90 Mbits/sec    0    283 KBytes       
+[ 13]   2.00-3.00   sec  2.50 MBytes  21.0 Mbits/sec    0    923 KBytes       
+[SUM]   2.00-3.00   sec  6.35 MBytes  53.3 Mbits/sec    0             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   3.00-4.00   sec  1.18 MBytes  9.91 Mbits/sec    0    290 KBytes       
+[  7]   3.00-4.00   sec  1.18 MBytes  9.91 Mbits/sec    0    296 KBytes       
+[  9]   3.00-4.00   sec  1.06 MBytes  8.86 Mbits/sec    0    256 KBytes       
+[ 11]   3.00-4.00   sec  1.24 MBytes  10.4 Mbits/sec    0    314 KBytes       
+[ 13]   3.00-4.00   sec  3.75 MBytes  31.5 Mbits/sec    0    973 KBytes       
+[SUM]   3.00-4.00   sec  8.41 MBytes  70.6 Mbits/sec    0             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   4.00-5.00   sec  1.24 MBytes  10.4 Mbits/sec    0    305 KBytes       
+[  7]   4.00-5.00   sec  1.24 MBytes  10.4 Mbits/sec    0    310 KBytes       
+[  9]   4.00-5.00   sec  1.12 MBytes  9.39 Mbits/sec    0    270 KBytes       
+[ 11]   4.00-5.00   sec  1.37 MBytes  11.5 Mbits/sec    0    328 KBytes       
+[ 13]   4.00-5.00   sec  2.50 MBytes  21.0 Mbits/sec    0    973 KBytes       
+[SUM]   4.00-5.00   sec  7.47 MBytes  62.7 Mbits/sec    0             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   5.00-6.00   sec  1.24 MBytes  10.4 Mbits/sec    0    305 KBytes       
+[  7]   5.00-6.00   sec  1.24 MBytes  10.4 Mbits/sec    0    310 KBytes       
+[  9]   5.00-6.00   sec  1.18 MBytes  9.90 Mbits/sec    0    270 KBytes       
+[ 11]   5.00-6.00   sec  1.37 MBytes  11.5 Mbits/sec    0    328 KBytes       
+[ 13]   5.00-6.00   sec  2.50 MBytes  21.0 Mbits/sec    0    973 KBytes       
+[SUM]   5.00-6.00   sec  7.53 MBytes  63.2 Mbits/sec    0             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   6.00-7.00   sec  2.05 MBytes  17.2 Mbits/sec    0    321 KBytes       
+[  7]   6.00-7.00   sec  2.05 MBytes  17.2 Mbits/sec    0    324 KBytes       
+[  9]   6.00-7.00   sec  1.86 MBytes  15.6 Mbits/sec    0    301 KBytes       
+[ 11]   6.00-7.00   sec  2.24 MBytes  18.8 Mbits/sec    1    345 KBytes       
+[ 13]   6.00-7.00   sec  2.50 MBytes  21.0 Mbits/sec    1    994 KBytes       
+[SUM]   6.00-7.00   sec  10.7 MBytes  89.8 Mbits/sec    2             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   7.0

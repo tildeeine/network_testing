@@ -1,0 +1,28 @@
+Starting test at  meters
+Timestamp: 2025-03-11_14-50-55
+Checking signal strength (RSSI)...
+Measurement 1:
+
+Measurement 2:
+
+Measurement 3:
+
+Measurement 4:
+
+Measurement 5:
+
+Measurement 6:
+
+Measurement 7:
+
+Measurement 8:
+
+Running throughput tests...
+Download test ...
+[SUM]   0.00-1.00   sec  14.3 MBytes   120 Mbits/sec    4             
+[SUM]   1.00-2.00   sec  6.48 MBytes  54.3 Mbits/sec    0             
+[SUM]   2.00-3.00   sec  6.35 MBytes  53.3 Mbits/sec    0             
+[SUM]   3.00-4.00   sec  8.41 MBytes  70.6 Mbits/sec    0             
+[SUM]   4.00-5.00   sec  7.47 MBytes  62.7 Mbits/sec    0             
+[SUM]   5.00-6.00   sec  7.53 MBytes  63.2 Mbits/sec    0             
+[SUM]   6.00-7.00   sec  10.7 MBytes  89.8 Mbits/sec    2             

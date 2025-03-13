@@ -1,0 +1,47 @@
+Starting test at 15 meters
+Timestamp: 2025-03-11_12-53-54
+Checking signal strength (RSSI)...
+Measurement 1:
+
+Measurement 2:
+
+Measurement 3:
+
+Measurement 4:
+
+Measurement 5:
+
+Measurement 6:
+
+Measurement 7:
+
+Measurement 8:
+
+Running throughput tests...
+Download test ...
+[SUM]   0.00-1.00   sec  21.3 MBytes   179 Mbits/sec    0             
+[SUM]   1.00-2.00   sec  17.0 MBytes   143 Mbits/sec    0             
+[SUM]   2.00-3.00   sec  15.6 MBytes   131 Mbits/sec    0             
+[SUM]   3.00-4.00   sec  13.4 MBytes   113 Mbits/sec    0             
+[SUM]   4.00-5.00   sec  16.6 MBytes   139 Mbits/sec    0             
+[SUM]   5.00-6.00   sec  8.76 MBytes  73.5 Mbits/sec    4             
+[SUM]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    6             
+Upload test...
+Large packet test...
+Ping and iwlist tests...
+PING 192.168.0.51 (192.168.0.51) 56(84) bytes of data.
+64 bytes from 192.168.0.51: icmp_seq=1 ttl=64 time=3.60 ms
+64 bytes from 192.168.0.51: icmp_seq=2 ttl=64 time=14.0 ms
+64 bytes from 192.168.0.51: icmp_seq=3 ttl=64 time=36.8 ms
+Summary of Results:
+Download Speed:
+[SUM]   0.00-1.00   sec  21.3 MBytes   179 Mbits/sec    0             
+[SUM]   1.00-2.00   sec  17.0 MBytes   143 Mbits/sec    0             
+[SUM]   2.00-3.00   sec  15.6 MBytes   131 Mbits/sec    0             
+[SUM]   3.00-4.00   sec  13.4 MBytes   113 Mbits/sec    0             
+[SUM]   4.00-5.00   sec  16.6 MBytes   139 Mbits/sec    0             
+[SUM]   5.00-6.00   sec  8.76 MBytes  73.5 Mbits/sec    4             
+[SUM]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    6             
+Upload Speed:
+Large Packet Speed:
+Test completed for 15 meters. Logs saved in logs.
