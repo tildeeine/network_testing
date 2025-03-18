@@ -21,7 +21,7 @@ log_and_echo "Timestamp: $TIMESTAMP"
 log_and_echo "Checking signal strength (RSSI)..."
 for i in {1..8}; do
     log_and_echo "Measurement $i:"
-    SIGNAL=$(iwconfig $INTERFACE 2>/dev/null | grep -o 'Signal level=[0-9]*/[0-9]*' | awk -F '=' '{print $2}')
+    SIGNAL=$(iwconfig $INTERFACE )
     echo "Signal: $SIGNAL" | tee -a "$LOG_FILE"
     
     # Extract just the first number from SIGNAL (before the slash)
