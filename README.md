@@ -11,12 +11,12 @@ The interface name is by default set to `wlan0`, which should be correct for the
 
 Before first run:
 ```bash
-chmod +x testing.sh
+chmod +x voxl_testing.sh
 ```
 
 To run the test script:
 ```sh
-./testing.sh <distance>
+./voxl_testing.sh <distance>
 ```
 Where distance is the distance you're currently testing at as an input argument.
 NB if you don't give distance as an argument, the script will either not run or overwrite the previous logs (depending on version of test script).
