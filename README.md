@@ -4,7 +4,7 @@ Make new dir for every test. Naming convention: `mmdd`.
 
 To run:
 ```sh
-./testing.sh
+./testing.sh <distance testing at>
 ```
 
 If issues:
