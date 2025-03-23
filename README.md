@@ -18,7 +18,8 @@ To run the test script:
 ```sh
 ./testing.sh <distance>
 ```
-Where distance is the distance you're currently testing at as an input argument. 
+Where distance is the distance you're currently testing at as an input argument.
+NB if you don't give distance as an argument, the script will either not run or overwrite the previous logs (depending on version of test script).
 
 Run at different test distances. Previous distances: 10m, 30m, 50m, 80m, 110m.
 Check the logs after the first test to verify that you are getting test data, not just error messages. 
